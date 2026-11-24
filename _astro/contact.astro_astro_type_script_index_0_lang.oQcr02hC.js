@@ -1,0 +1,1 @@
+import{n as e}from"./firma.CK00vBhE.js";document.querySelector(`[data-form-wa]`)?.addEventListener(`submit`,t=>{t.preventDefault();let n=new FormData(t.currentTarget),r=`Bună ziua! Sunt ${n.get(`nume`)} (${n.get(`telefon`)}).\n${n.get(`mesaj`)}`;window.open(e(r),`_blank`,`noopener`)});
